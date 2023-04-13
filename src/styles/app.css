@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+}
+
+.categories {
+  display: flex;
+  align-items: flex-end;
+  height: 150px;
+}
+
+.nav {
+  margin-right: 100px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #979797;
+}
+
+.mainImage {
+  background-image: url();
+  width: 100%;
+  height: 600px;
+  background-color: blueviolet;
+  display: flex;
+  position: relative;
+}
+
+.mainImageTitle {
+  flex-direction: column;
+  position: absolute;
+  top: 250px;
+  left: 80px;
+  font-size: 22px;
+}
+
+.EmeraldLatte {
+  position: absolute;
+  flex-direction: column; /* column해도 세로정렬이 안되는이유? */
+  top: 500px;
+  right: 300px;
+}
+
+.chocoBeachLatte {
+  position: absolute;
+  flex-direction: column; /* column해도 세로정렬이 안되는이유? */
+  top: 300px;
+  right: 120px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+}
+`
