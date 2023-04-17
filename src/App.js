@@ -1,10 +1,16 @@
 import "./styles/app.css";
+import React from "react";
+// import cup_logo from "./assets/img/cuplogo.png";
 
 function App() {
   return (
     <div>
       <div className="header">
-        <image className="logo" src="" alt="로고" />
+        <img
+          className="logo"
+          src={require("./assets/img/cuplogo.png")}
+          alt="로고"
+        />
         <div className="categories">
           <span className="nav">ABOUT</span>
           <span className="nav">MENU</span>
@@ -15,16 +21,21 @@ function App() {
 
       {/* 메인이미지 */}
       <div>
-        <image className="mainImage" src="" alt="메인이미지" />
+        <img className="mainImage" src="" alt="메인이미지" />
         <div className="mainImageTitle">
           <span className="smallTitleText">여름시즌 신메뉴 출시!</span>
-          <image className="bigTitleText" src="" alt="제목" />
-          <div> 신 메뉴 보러가기 </div>
+          <image className="bigTitleText" src="image/summer.png" alt="제목" />
+          {/* <div className="goToNewMenu" onClick={handleClick}>
+            신 메뉴 보러가기
+          </div> */}
+          <a href="_blank">
+            <button className="goToNewMenu_two">신 메뉴 보러가기</button>
+          </a>
         </div>
       </div>
 
       {/* 줄바꿈하는방법? */}
-      <div className="EmeraldLatteImage" src="" alt="에메랄드라떼" />
+      <div className="EmeraldLatteImage" src="14.png" alt="에메랄드라떼" />
       <div className="EmeraldLat`te">
         <span className="name"> 에메랄드 라떼</span>
         <span className="englishName">Emerald Latte</span>
@@ -37,7 +48,7 @@ function App() {
         <span className="name">초코 비치 라떼</span>
         <span className="englishName">Choco Beach Latte</span>
         <span className="explanation">
-          초코시럽과 블루티를 넣어 섞은 에티오피아 원두로 만든 라떼
+          초코시럽과 블루티를 넣어 {"\n"} 섞은 에티오피아 원두로 만든 라떼
         </span>
       </div>
       <image className="mainBackground" src="" />
