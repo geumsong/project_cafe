@@ -8,8 +8,10 @@
 .logo {
   width: 100px;
   height: 75px;
+  margin-left: 50px;
+  margin-top: 38px;
 }
-
+s
 .categories {
   display: flex;
   align-items: flex-end;
@@ -29,64 +31,72 @@
   height: 600px;
   background-color: #8a2be2;
   display: flex;
-  position: relative;
+  position: absolute;
 }
 
 .mainImageTitle {
+  display: flex;
   flex-direction: column;
   position: absolute;
-  top: 250px;
-  left: 80px;
-  font-size: 22px;
+  margin-left: 80px;
+}
+
+.smallTitleText {
+  margin-top: 90px;
+  font-size: 24px;
+  color: white;
 }
 
 .bigTitleText {
-  width: 253px;
-  height: 205px;
-  background-color: yellow;
+  width: 320px;
+  margin-top: 20px;
 }
 
 .goToNewMenu {
   line-height: 50px;
-  text-align: center;
-  margin-bottom: 20px;
-  background-color: lightgray;
-  font-size: 16px;
-  border-radius: 30px;
-  cursor: pointer;
-}
-
-.goToNewMenu_two {
   width: 200px;
-  line-height: 50px;
+  height: 60px;
   text-align: center;
+  margin-top: 25px;
   background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.8);
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
-  box-shadow: none;
   border: none;
 }
 
-.EmeraldLatte {
-  position: absolute;
-  flex-direction: column; /* column해도 세로정렬이 안되는이유? */
-  top: 500px;
-  right: 300px;
+.EmeraldPlusChoco {
+  letter-spacing: -0.5px;
+  color: white;
+  white-space: pre-line;
 }
 
 .chocoBeachLatte {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  flex-direction: column; /* column해도 세로정렬이 안되는이유? */
   top: 300px;
-  right: 120px;
+  right: 300px;
+}
+
+.EmeraldLatte {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 500px;
+  right: 500px;
 }
 
 .name {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.englishName {
+  font-size: 18px;
 }
 
 .explanation {
-  white-space: pre-line;
+  margin-top: 50px;
 }

@@ -20,37 +20,44 @@ function App() {
       </div>
 
       {/* 메인이미지 */}
+      <img className="mainImage" src="" alt="메인이미지" />
       <div>
-        <img className="mainImage" src="" alt="메인이미지" />
         <div className="mainImageTitle">
           <span className="smallTitleText">여름시즌 신메뉴 출시!</span>
-          <image className="bigTitleText" src="image/summer.png" alt="제목" />
+          <img
+            className="bigTitleText"
+            src={require("./assets/img/summer.png")}
+            alt="제목"
+          />
           {/* <div className="goToNewMenu" onClick={handleClick}>
             신 메뉴 보러가기
           </div> */}
+
           <a href="_blank">
-            <button className="goToNewMenu_two">신 메뉴 보러가기</button>
+            <button className="goToNewMenu">신 메뉴 보러가기</button>
           </a>
         </div>
       </div>
 
       {/* 줄바꿈하는방법? */}
-      <div className="EmeraldLatteImage" src="14.png" alt="에메랄드라떼" />
-      <div className="EmeraldLat`te">
-        <span className="name"> 에메랄드 라떼</span>
-        <span className="englishName">Emerald Latte</span>
-        <span className="explanation">
-          코코넛과 레몬, 그리고 초코를 넣은 상큼 달달한 라떼
-        </span>
+      <div className="EmeraldPlusChoco">
+        <div className="EmeraldLatte">
+          <span className="name"> 에메랄드 라떼</span>
+          <span className="englishName">Emerald Latte</span>
+          <span className="explanation">
+            코코넛과 레몬, 그리고 초코를 넣은 {"\n"}상큼 달달한 라떼
+          </span>
+        </div>
+        <div className="chocoBeachLatte">
+          <span className="name">초코 비치 라떼</span>
+          <span className="englishName">Choco Beach Latte</span>
+          <span className="explanation">
+            초코시럽과 블루티를 넣어 {"\n"} 섞은 에티오피아 원두로 만든 라떼
+          </span>
+        </div>
       </div>
+      <div className="EmeraldLatteImage" src="" alt="에메랄드라떼" />
       <div className="chocoBeachLatteImage" src="" alt="초코비치라떼" />
-      <div className="chocoBeachLatte">
-        <span className="name">초코 비치 라떼</span>
-        <span className="englishName">Choco Beach Latte</span>
-        <span className="explanation">
-          초코시럽과 블루티를 넣어 {"\n"} 섞은 에티오피아 원두로 만든 라떼
-        </span>
-      </div>
       <image className="mainBackground" src="" />
       {/*
         <div className="blackBox">
