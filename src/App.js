@@ -8,6 +8,7 @@ function App() {
       <div className="header">
         <img
           className="logo"
+          href=""
           src={require("./assets/img/cuplogo.png")}
           alt="로고"
         />
@@ -59,15 +60,26 @@ function App() {
       <div className="EmeraldLatteImage" src="" alt="에메랄드라떼" />
       <div className="chocoBeachLatteImage" src="" alt="초코비치라떼" />
       <image className="mainBackground" src="" />
-      {/*
-        <div className="blackBox">
-          <div className="noticeText">공지사항</div>
-          <div className="noticeTitle">ㅇㅇㅇ일부 메뉴 가격 인상 안내</div>
-          <div className="clickNotice" onclick="" />
-          <div className="noticeText">이벤트</div>
-          <div className="noticeTitle">벚꽃시리즈 스템프 이벤트</div>
-          <div className="clickNotice" onclick="" />
+
+      <div>
+        <div className="blackbox">
+          <div>
+            <span className="noticeMainTitle">공지사항</span>
+            <span className="noticeTitle">ㅇㅇㅇ일부 메뉴 가격 인상 안내</span>
+            <a href="_blank">
+              <button className="goToNotice" src=""></button>
+            </a>
+          </div>
+          <div className="noticeBox">
+            <span className="noticeMainTitle">이벤트</span>
+            <span className="noticeTitle">벚꽃시리즈 스템프 이벤트</span>
+            <a href="_blank">
+              <button className="goToNotice" src=""></button>
+            </a>
+          </div>
         </div>
+      </div>
+      {/*
       </div>
       <div className="secondMainImage">
         <div className="imageOne" src="" />
