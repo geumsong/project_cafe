@@ -59,13 +59,12 @@ function App() {
       </div>
       <div className="EmeraldLatteImage" src="" alt="에메랄드라떼" />
       <div className="chocoBeachLatteImage" src="" alt="초코비치라떼" />
-      <image className="mainBackground" src="" />
 
       <div className="blackbox">
-        <div>
+        <div className="noticeSection">
           <span className="noticeMainTitle">공지사항</span>
           <span className="noticeTitle">ㅇㅇㅇ일부 메뉴 가격 인상 안내</span>
-          <a href="">
+          <a href="" style={{ marginLeft: "120px" }}>
             <img
               className="plus"
               src={require("./assets/img/plus.png")}
@@ -73,10 +72,10 @@ function App() {
             />
           </a>
         </div>
-        <div>
+        <div className="noticeSection">
           <span className="noticeMainTitle">이벤트</span>
           <span className="noticeTitle">벚꽃시리즈 스템프 이벤트</span>
-          <a href="">
+          <a href="" style={{ marginLeft: "120px" }}>
             <img
               className="plus"
               src={require("./assets/img/plus.png")}
@@ -85,14 +84,29 @@ function App() {
           </a>
         </div>
       </div>
-      <div className="backgroundImage">
-        <img src={require("./assets/img/backgroundCheckPattern.png")} />
+      <div className="secondBackground">
+        <img
+          className="checkPattern"
+          src={require("./assets/img/backgroundCheckPattern.png")}
+        />
         <div>
-          <img className="firstMenu" src="" alt="첫 번째 음료" />
-          <img className="secondMenu" src="" alt="두 번째 음료" />
-          <img className="thirdMenu" src="" alt="세 번째 음료" />
+          <img
+            className="menuFrames"
+            src={require("./assets/img/firstFrame.png")}
+            alt="첫 번째 음료"
+          />
+          <img
+            className="menuFrames"
+            src={require("./assets/img/secondFrame.png")}
+            alt="두 번째 음료"
+          />
+          <img
+            className="menuFrames"
+            src={require("./assets/img/thirdFrame.png")}
+            alt="세 번째 음료"
+          />
         </div>
-        <div>
+        <div className="secondTitle">
           <div className="coffeeBean">
             Coffee Bean
             <a href="_blank">
@@ -104,7 +118,32 @@ function App() {
           </div>
         </div>
       </div>
-
+      <div>
+        <div className="thirdBackground">
+          <div>
+            <div className="namedCoffee">COFFEE</div>
+            <img
+              className="longCircle"
+              src={require("./assets/img/longCircle.png")}
+            />
+            <img
+              className="circleOrange"
+              src={require("./assets/img/roundOrange.png")}
+            />
+          </div>
+          <div>
+            <div>
+              <a href="">
+                <button className="seeMoreCoffiesMenuButton">
+                  커피 메뉴 더 보기
+                </button>
+              </a>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
       {/*
       </div>
       <div className="secondMainImage">

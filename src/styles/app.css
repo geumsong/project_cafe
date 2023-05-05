@@ -103,12 +103,16 @@
 
 .blackbox {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   background-color: rgb(0, 0, 0);
   margin-top: 600px;
   width: 100%;
+}
+
+.noticeSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   height: 70px;
 }
 
@@ -117,6 +121,7 @@
   color: white;
   font-weight: 600;
   font-size: 18px;
+  line-height: 70px;
 }
 
 .noticeTitle {
@@ -125,16 +130,41 @@
 }
 
 .plus {
-  margin-left: 120px;
+  margin: auto;
 }
 
-.backgroundImage {
+.secondBackground {
   display: flex;
   flex-basis: auto;
+  height: 400px;
+}
+
+.checkPattern {
+  /* z-index : absolute를 사용했을때만 사용 가능, 제일 아래에 배치 */
+  z-index: -1;
+  position: absolute;
   width: 100%;
   height: 600px;
-  background-color: aquamarine;
-  position: absolute;
+}
+
+/* space-between이 되지않는 이유?  margin으로 일단 값줬음 */
+/* manuFrames위에 있는 div에 className줘서 space-between했는데 ..ㅠ안됨 */
+.menuFrames {
+  margin-left: 60px;
+  margin-top: 135px;
+  height: 45vh;
+}
+.secondTitle {
+  display: flex;
+
+  margin: auto;
+}
+.coffeeBean {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 65px;
+  color: white;
 }
 
 .moreCoffeeBeanButton {
@@ -151,11 +181,28 @@
   border: none;
 }
 
-.coffeeBean {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.thirdBackground {
+  margin-top: 198px;
+  height: 700px;
+  background-color: yellow;
+}
+
+.namedCoffee {
+  margin-top: 230px;
+  margin-left: 150px;
+  font-size: 55px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.longCircle {
   margin-top: 220px;
-  margin-left: 650px;
-  font-size: 65px;
+  margin-left: 176px;
+  position: absolute;
+}
+
+.circleOrange {
+  margin-top: 180px;
+  justify-content: center;
+  align-content: center;
 }
