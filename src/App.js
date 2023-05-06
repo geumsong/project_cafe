@@ -119,7 +119,7 @@ function App() {
         </div>
       </div>
       <div>
-        <div className="thirdBackground">
+        <div className="thirdBackground1">
           <div>
             <div className="namedCoffee">COFFEE</div>
             <img
@@ -131,7 +131,7 @@ function App() {
               src={require("./assets/img/roundOrange.png")}
             />
           </div>
-          <div>
+          <div className="nextMenuButton">
             <div>
               <a href="">
                 <button className="seeMoreCoffiesMenuButton">
@@ -139,9 +139,149 @@ function App() {
                 </button>
               </a>
             </div>
-            <div></div>
-            <div></div>
+            <div className="leftRightButtons">
+              <div>
+                <a href="">
+                  <button
+                    className="goButton"
+                    src={require("./assets/img/left.png")}
+                  >
+                    <img src={require("./assets/img/left.png")} />
+                  </button>
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <button className="goButton">
+                    <img src={require("./assets/img/right.png")} />
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
+          <div className="fourPictures">
+            <div>
+              <img src={require("./assets/img/box.png")} />
+            </div>
+            <div>
+              <img src={require("./assets/img/box.png")} />
+            </div>
+            <div>
+              <img src={require("./assets/img/box.png")} />
+            </div>
+            <div>
+              <img src={require("./assets/img/box.png")} />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div className="thirdBackground2">
+              <div>
+                <div className="namedBeverage">BEVERAGE</div>
+                <img
+                  className="longCircle"
+                  src={require("./assets/img/longCircle.png")}
+                />
+                <img
+                  className="circleOrange"
+                  src={require("./assets/img/roundOrange.png")}
+                />
+              </div>
+              <div className="nextMenuButton">
+                <div>
+                  <a href="">
+                    <button className="seeMoreCoffiesMenuButton">
+                      음료 메뉴 더 보기
+                    </button>
+                  </a>
+                </div>
+                <div className="leftRightButtons">
+                  <div>
+                    <a href="">
+                      <button
+                        className="goButton"
+                        src={require("./assets/img/left.png")}
+                      >
+                        <img src={require("./assets/img/left.png")} />
+                      </button>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="">
+                      <button className="goButton">
+                        <img src={require("./assets/img/right.png")} />
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="fourPictures">
+                <div>
+                  <img src={require("./assets/img/box.png")} />
+                </div>
+                <div>
+                  <img src={require("./assets/img/box.png")} />
+                </div>
+                <div>
+                  <img src={require("./assets/img/box.png")} />
+                </div>
+                <div>
+                  <img src={require("./assets/img/box.png")} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="tryMenuSection">
+        <div className="blackRadiusBox">
+          <div className="tryMenu">
+            <div>ㅇㅇ의 다양한 메뉴를 경험해보세요</div>
+            <div>
+              <button className="seeMoreMenues">더 많은 메뉴 보기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="footerImage">
+        <img src="" />
+      </div>
+      <div className="footer">
+        {/* 첫 번째 footer/ */}
+        <div className="footerFirstLine">
+          <div>
+            <div className="csCenter">고객센터</div>
+            <div className="csNumber">010.5105.4167</div>
+          </div>
+          <div>
+            <div className="followUs">FOLLOW US!</div>
+            <div className="threeSnsBoxes">
+              <img src="" />
+              <img src="" />
+              <img src="" />
+            </div>
+          </div>
+          <div>
+            <img src="narrowDec" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <span>공지사항</span>
+            <span>가맹점문의</span>
+            <span>찾아오시는길</span>
+            <span>개인정보처리방침</span>
+            <span>이용약관</span>
+          </div>
+          <div>
+            <span>사업자등록번호: 185-76-55293</span>
+            <span>대표:이금송</span>
+            <span>서울시 성동구 상원1길 25</span>
+            <span>TEL:010.5105.4167</span>
+            <span>개인정보책임자:코쿤</span>
+          </div>
+          <div>ⓒ2023 ㅇㅇㅇ Coffee.All Rights Reserved.</div>
         </div>
       </div>
       {/*

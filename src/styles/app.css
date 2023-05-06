@@ -27,11 +27,11 @@
 }
 
 .mainImage {
+  display: flex;
+  position: absolute;
   width: 100%;
   height: 600px;
   background-color: #8a2be2;
-  display: flex;
-  position: absolute;
 }
 
 .mainImageTitle {
@@ -154,11 +154,13 @@
   margin-top: 135px;
   height: 45vh;
 }
+
 .secondTitle {
   display: flex;
 
   margin: auto;
 }
+
 .coffeeBean {
   display: flex;
   flex-direction: column;
@@ -173,7 +175,7 @@
   height: 60px;
   text-align: center;
   margin-top: 25px;
-  background-color: lightgray;
+  background-color: white;
   background-color: rgba(211, 211, 211, 0.8);
   font-size: 16px;
   border-radius: 30px;
@@ -181,28 +183,173 @@
   border: none;
 }
 
-.thirdBackground {
+.thirdBackground1 {
+  display: flex;
   margin-top: 198px;
+  width: 100%;
   height: 700px;
-  background-color: yellow;
+  background-color: white;
+  z-index: -2;
+  position: absolute;
 }
 
 .namedCoffee {
-  margin-top: 230px;
-  margin-left: 150px;
+  margin-top: 170px;
+  margin-left: 60px;
   font-size: 55px;
   font-weight: 600;
   position: absolute;
 }
 
 .longCircle {
-  margin-top: 220px;
-  margin-left: 176px;
+  margin-top: 160px;
+  margin-left: 90px;
   position: absolute;
 }
 
 .circleOrange {
   margin-top: 180px;
+  z-index: -1;
+  position: absolute;
+}
+
+.nextMenuButton {
+  margin-top: 260px;
+  display: flex;
+  position: absolute;
+  /* justify-content: flex-end; 적용안됨 ㅠ */
+  margin-left: 1180px;
+}
+
+.seeMoreCoffiesMenuButton {
+  text-align: center;
+  width: 170px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  font-size: 14px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.leftRightButtons {
+  display: flex;
+}
+
+.goButton {
+  display: flex;
   justify-content: center;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  border-color: #e8e8e8;
+  margin-left: 10px;
+}
+
+.fourPictures {
+  display: flex;
   align-content: center;
+  margin-top: 320px;
+}
+
+.thirdBackground2 {
+  display: flex;
+  margin-top: 898px;
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+
+.namedBeverage {
+  margin-top: 170px;
+  margin-left: 60px;
+  font-size: 55px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.tryMenuSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 1598px;
+  width: 100%;
+  height: 360px;
+  background-color: white;
+}
+
+.blackRadiusBox {
+  width: 1300px;
+  height: 300px;
+  position: absolute;
+
+  background-color: black;
+  border-radius: 40px;
+}
+
+.tryMenu {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+}
+
+.seeMoreMenues {
+  width: 250px;
+  height: 40px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #e57741;
+  cursor: pointer;
+}
+
+.footerImage {
+  width: 100%;
+  height: 300px;
+  background-color: #8a2be2;
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  background-color: rosybrown;
+}
+
+.csCenter {
+  display: flex;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+.csNumber {
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #e57741;
+}
+
+.followUs {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin-right: 180px
 }
