@@ -84,12 +84,9 @@ function App() {
           </a>
         </div>
       </div>
+
       <div className="secondBackground">
-        <img
-          className="checkPattern"
-          src={require("./assets/img/backgroundCheckPattern.png")}
-        />
-        <div>
+        <div className="threeMenues">
           <img
             className="menuFrames"
             src={require("./assets/img/firstFrame.png")}
@@ -107,17 +104,25 @@ function App() {
           />
         </div>
         <div className="secondTitle">
-          <div className="coffeeBean">
-            Coffee Bean
-            <a href="_blank">
-              <button className="moreCoffeeBeanButton">
-                자세히 보기
-                <img src={require("./assets/img/narrow.png")} />
-              </button>
-            </a>
+          <div>
+            <div className="coffeeBean">
+              Coffee Bean
+              <div className="seeMore">
+                <a href="">
+                  <button className="moreCoffeeBeanButton">
+                    자세히 보기
+                    <img
+                      className="narrow"
+                      src={require("./assets/img/narrow.png")}
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
       <div>
         <div className="thirdBackground1">
           <div>
@@ -126,16 +131,20 @@ function App() {
               className="longCircle"
               src={require("./assets/img/longCircle.png")}
             />
-            <img
-              className="circleOrange"
-              src={require("./assets/img/roundOrange.png")}
-            />
           </div>
+          <img
+            className="circleOrange"
+            src={require("./assets/img/roundOrange.png")}
+          />
           <div className="nextMenuButton">
             <div>
               <a href="">
                 <button className="seeMoreCoffiesMenuButton">
                   커피 메뉴 더 보기
+                  <img
+                    className="whiteNarrow"
+                    src={require("./assets/img/whitenarrow.png")}
+                  />
                 </button>
               </a>
             </div>
@@ -159,77 +168,83 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="fourPictures">
-            <div>
+          <div className="fivePictures">
+            <div className="pictures">
               <img src={require("./assets/img/box.png")} />
             </div>
-            <div>
+            <div className="pictures">
               <img src={require("./assets/img/box.png")} />
             </div>
-            <div>
+            <div className="pictures">
               <img src={require("./assets/img/box.png")} />
             </div>
-            <div>
+            <div className="pictures">
+              <img src={require("./assets/img/box.png")} />
+            </div>
+            <div className="pictures">
               <img src={require("./assets/img/box.png")} />
             </div>
           </div>
         </div>
-        <div>
+        <div className="thirdBackground2">
           <div>
-            <div className="thirdBackground2">
+            <div className="namedBeverage">BEVERAGE</div>
+            <img
+              className="longCircle"
+              src={require("./assets/img/longCircle.png")}
+            />
+          </div>
+          <img
+            className="circleOrange"
+            src={require("./assets/img/roundOrange.png")}
+          />
+          <div className="nextMenuButton">
+            <div>
+              <a href="">
+                <button className="seeMoreCoffiesMenuButton">
+                  음료 메뉴 더 보기
+                  <img
+                    className="whiteNarrow"
+                    src={require("./assets/img/whitenarrow.png")}
+                  />
+                </button>
+              </a>
+            </div>
+            <div className="leftRightButtons">
               <div>
-                <div className="namedBeverage">BEVERAGE</div>
-                <img
-                  className="longCircle"
-                  src={require("./assets/img/longCircle.png")}
-                />
-                <img
-                  className="circleOrange"
-                  src={require("./assets/img/roundOrange.png")}
-                />
+                <a href="">
+                  <button
+                    className="goButton"
+                    src={require("./assets/img/left.png")}
+                  >
+                    <img src={require("./assets/img/left.png")} />
+                  </button>
+                </a>
               </div>
-              <div className="nextMenuButton">
-                <div>
-                  <a href="">
-                    <button className="seeMoreCoffiesMenuButton">
-                      음료 메뉴 더 보기
-                    </button>
-                  </a>
-                </div>
-                <div className="leftRightButtons">
-                  <div>
-                    <a href="">
-                      <button
-                        className="goButton"
-                        src={require("./assets/img/left.png")}
-                      >
-                        <img src={require("./assets/img/left.png")} />
-                      </button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="">
-                      <button className="goButton">
-                        <img src={require("./assets/img/right.png")} />
-                      </button>
-                    </a>
-                  </div>
-                </div>
+              <div>
+                <a href="">
+                  <button className="goButton">
+                    <img src={require("./assets/img/right.png")} />
+                  </button>
+                </a>
               </div>
-              <div className="fourPictures">
-                <div>
-                  <img src={require("./assets/img/box.png")} />
-                </div>
-                <div>
-                  <img src={require("./assets/img/box.png")} />
-                </div>
-                <div>
-                  <img src={require("./assets/img/box.png")} />
-                </div>
-                <div>
-                  <img src={require("./assets/img/box.png")} />
-                </div>
-              </div>
+            </div>
+          </div>
+          <div className="fivePictures">
+            <div className="pictures">
+              <img src={require("./assets/img/box.png")} />
+            </div>
+            <div className="pictures">
+              <img src={require("./assets/img/box.png")} />
+            </div>
+            <div className="pictures">
+              <img src={require("./assets/img/box.png")} />
+            </div>
+            <div className="pictures">
+              <img src={require("./assets/img/box.png")} />
+            </div>
+            <div className="pictures">
+              <img src={require("./assets/img/box.png")} />
             </div>
           </div>
         </div>
@@ -237,7 +252,9 @@ function App() {
       <div className="tryMenuSection">
         <div className="blackRadiusBox">
           <div className="tryMenu">
-            <div>ㅇㅇ의 다양한 메뉴를 경험해보세요</div>
+            <div className="tryVariousMenu">
+              ㅇㅇ의 다양한 메뉴를 경험해보세요
+            </div>
             <div>
               <button className="seeMoreMenues">더 많은 메뉴 보기</button>
             </div>
@@ -250,11 +267,17 @@ function App() {
       <div className="footer">
         {/* 첫 번째 footer/ */}
         <div className="footerFirstLine">
-          <div>
+          <div className="number">
             <div className="csCenter">고객센터</div>
             <div className="csNumber">010.5105.4167</div>
           </div>
           <div>
+            <img
+              className="narrowDec"
+              src={require("./assets/img/narrowDec.png")}
+            />
+          </div>
+          <div className="sns">
             <div className="followUs">FOLLOW US!</div>
             <div className="threeSnsBoxes">
               <img src="" />
@@ -262,26 +285,39 @@ function App() {
               <img src="" />
             </div>
           </div>
-          <div>
-            <img src="narrowDec" />
-          </div>
         </div>
-        <div>
-          <div>
-            <span>공지사항</span>
-            <span>가맹점문의</span>
-            <span>찾아오시는길</span>
-            <span>개인정보처리방침</span>
-            <span>이용약관</span>
+        <div className="footerSecondLine">
+          <div className="">
+            <div className="cafeNav">
+              <span className="cafeNavHref" href="">
+                공지사항
+              </span>
+              <span className="cafeNavHref" href="">
+                가맹점문의
+              </span>
+              <span className="cafeNavHref" href="">
+                찾아오시는길
+              </span>
+              <span className="cafeNavHref" href="">
+                개인정보처리방침
+              </span>
+              <span className="cafeNavHref" href="">
+                이용약관
+              </span>
+            </div>
+            <div className="cafeAddress">
+              <span className="cafeAddressData">
+                사업자등록번호: 185-76-55293
+              </span>
+              <span className="cafeAddressData">대표:이금송</span>
+              <span className="cafeAddressData">서울시 성동구 상원1길 25</span>
+              <span className="cafeAddressData">TEL:010.5105.4167</span>
+              <span className="cafeAddressData">개인정보책임자:코쿤</span>
+            </div>
+            <div className="copyright">
+              ⓒ2023 ㅇㅇㅇ Coffee.All Rights Reserved.
+            </div>
           </div>
-          <div>
-            <span>사업자등록번호: 185-76-55293</span>
-            <span>대표:이금송</span>
-            <span>서울시 성동구 상원1길 25</span>
-            <span>TEL:010.5105.4167</span>
-            <span>개인정보책임자:코쿤</span>
-          </div>
-          <div>ⓒ2023 ㅇㅇㅇ Coffee.All Rights Reserved.</div>
         </div>
       </div>
       {/*

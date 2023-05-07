@@ -139,56 +139,61 @@
   height: 400px;
 }
 
-.checkPattern {
-  /* z-index : absolute를 사용했을때만 사용 가능, 제일 아래에 배치 */
-  z-index: -1;
-  position: absolute;
-  width: 100%;
-  height: 600px;
-}
-
-/* space-between이 되지않는 이유?  margin으로 일단 값줬음 */
-/* manuFrames위에 있는 div에 className줘서 space-between했는데 ..ㅠ안됨 */
 .menuFrames {
-  margin-left: 60px;
-  margin-top: 135px;
-  height: 45vh;
+  margin-left: 50px;
+  height: 46vh;
 }
 
 .secondTitle {
-  display: flex;
-
   margin: auto;
+}
+
+.secondBackground {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 609px;
+  background-image: url(/src/assets/img/backgroundCheckPattern.png);
+  background-size: 100%;
 }
 
 .coffeeBean {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 65px;
+  font-size: 75px;
   color: white;
 }
 
+.seeMore {
+  display: flex;
+  align-items: center;
+}
+
+.narrow {
+  margin-left: 15px;
+  height: 2.5vh;
+}
+
 .moreCoffeeBeanButton {
-  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 200px;
   height: 60px;
   text-align: center;
-  margin-top: 25px;
-  background-color: white;
-  background-color: rgba(211, 211, 211, 0.8);
-  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.85);
+  font-size: 17px;
   border-radius: 30px;
   cursor: pointer;
   border: none;
+  text-decoration: none;
 }
 
 .thirdBackground1 {
   display: flex;
-  margin-top: 198px;
   width: 100%;
   height: 700px;
-  background-color: white;
   z-index: -2;
   position: absolute;
 }
@@ -208,9 +213,11 @@
 }
 
 .circleOrange {
-  margin-top: 180px;
-  z-index: -1;
+  justify-content: center;
   position: absolute;
+  z-index: -1;
+  margin-top: 160px;
+  margin-left: 35%;
 }
 
 .nextMenuButton {
@@ -218,19 +225,23 @@
   display: flex;
   position: absolute;
   /* justify-content: flex-end; 적용안됨 ㅠ */
-  margin-left: 1180px;
+  margin-left: 1140px;
 }
 
 .seeMoreCoffiesMenuButton {
-  text-align: center;
-  width: 170px;
+  width: 185px;
   height: 50px;
-  background-color: rgb(0, 0, 0);
   font-size: 14px;
   border-radius: 30px;
   cursor: pointer;
   border: none;
   color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+.whiteNarrow {
+  margin-left: 15px;
+  height: 2vh;
 }
 
 .leftRightButtons {
@@ -240,25 +251,31 @@
 .goButton {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-left: 10px;
   width: 50px;
   height: 50px;
-  align-items: center;
   cursor: pointer;
   background-color: #f4f4f4;
   border-radius: 30px;
   border-color: #e8e8e8;
-  margin-left: 10px;
 }
 
-.fourPictures {
+.fivePictures {
   display: flex;
   align-content: center;
-  margin-top: 320px;
+  margin-top: 340px;
+  margin-left: 35px;
+}
+
+.pictures img {
+  height: 43vh;
+  margin-left: 20px;
 }
 
 .thirdBackground2 {
   display: flex;
-  margin-top: 898px;
+  margin-top: 700px;
   position: absolute;
   z-index: -2;
   width: 100%;
@@ -276,18 +293,21 @@
 
 .tryMenuSection {
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 1598px;
+  margin-top: 1400px;
   width: 100%;
   height: 360px;
   background-color: white;
 }
 
 .blackRadiusBox {
-  width: 1300px;
-  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-
+  width: 1400px;
+  height: 300px;
   background-color: black;
   border-radius: 40px;
 }
@@ -295,20 +315,22 @@
 .tryMenu {
   display: flex;
   flex-direction: column;
-  z-index: 1;
-  position: absolute;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.tryVariousMenu {
   font-size: 40px;
   color: white;
   font-weight: 600;
 }
 
 .seeMoreMenues {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 250px;
   height: 40px;
-  position: absolute;
-  z-index: 1;
   margin-top: 30px;
   border-radius: 30px;
   border: none;
@@ -319,15 +341,28 @@
 }
 
 .footerImage {
+  margin-top: 50px;
   width: 100%;
   height: 300px;
   background-color: #8a2be2;
 }
 
-.footer {
+.footerFirstLine {
+  display: flex;
+  align-items: center;
   width: 100%;
-  height: 450px;
-  background-color: rosybrown;
+  height: 240px;
+  background-color: black;
+}
+
+.footerSecondLine {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+}
+
+.number {
+  align-items: center;
 }
 
 .csCenter {
@@ -335,21 +370,56 @@
   font-size: 20px;
   color: white;
   font-weight: 600;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 .csNumber {
-  margin-left: 50px;
+  margin-left: 80px;
   font-size: 40px;
   font-weight: 500;
   color: #e57741;
 }
 
-.followUs {
+.sns {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.followUs {
   font-size: 20px;
-  color: white;
   font-weight: 500;
-  margin-right: 180px
+  color: white;
+}
+
+.cafeNav {
+  font-size: 16px;
+  margin-left: 80px;
+  font-weight: 600;
+  color: white;
+}
+
+.cafeNavHref {
+  margin-right: 40px;
+  letter-spacing: -1.5px;
+  cursor: pointer;
+}
+
+.cafeAddress {
+  margin-top: 13px;
+  font-size: 14px;
+  margin-left: 80px;
+  color: #9b9b9b;
+}
+
+.cafeAddressData {
+  margin-right: 30px;
+}
+
+.copyright {
+  margin-top: 24px;
+  margin-left: 80px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #9b9b9b;
 }
