@@ -64,24 +64,24 @@ function App() {
         <div className="noticeSection">
           <span className="noticeMainTitle">공지사항</span>
           <span className="noticeTitle">ㅇㅇㅇ일부 메뉴 가격 인상 안내</span>
-          <a href="" style={{ marginLeft: "120px" }}>
+          <div style={{ marginLeft: "120px" }}>
             <img
               className="plus"
               src={require("./assets/img/plus.png")}
               alt="공지사항 더보기"
             />
-          </a>
+          </div>
         </div>
         <div className="noticeSection">
           <span className="noticeMainTitle">이벤트</span>
           <span className="noticeTitle">벚꽃시리즈 스템프 이벤트</span>
-          <a href="" style={{ marginLeft: "120px" }}>
+          <div style={{ marginLeft: "120px" }}>
             <img
               className="plus"
               src={require("./assets/img/plus.png")}
               alt="이벤트 더보기"
             ></img>
-          </a>
+          </div>
         </div>
       </div>
 
@@ -108,218 +108,257 @@ function App() {
             <div className="coffeeBean">
               Coffee Bean
               <div className="seeMore">
-                <a href="">
+                <div style={{ textDecoration: "none" }}>
                   <button className="moreCoffeeBeanButton">
                     자세히 보기
                     <img
                       className="narrow"
                       src={require("./assets/img/narrow.png")}
+                      alt="narrow"
                     />
                   </button>
-                </a>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* 세번째 */}
+      {/* 커피메뉴 */}
+
+      <div className="thirdBackgroundCoffee">
+        <div className="coffeeMenuTopOver">
+          <div className="coffeeMenuTop">
+            <div className="coffeeDecorate">
+              <div className="coffeeText">COFFEE</div>
+              <div className="longCircle">
+                <img
+                  src={require("./assets/img/longCircle.png")}
+                  alt="longCircle"
+                />
+              </div>
+            </div>
+            <div className="roundOrange">
+              <img
+                src={require("./assets/img/roundOrange.png")}
+                alt="roundOrange"
+              />
+            </div>
+            <div className="threeButtons">
+              <div>
+                <button className="seeMoreCoffeeMenuButton">
+                  커피 메뉴 더 보기
+                </button>
+              </div>
+              <div>
+                <button className="goButton">
+                  <img src={require("./assets/img/left.png")} alt="left" />
+                </button>
+              </div>
+              <div>
+                <button className="goButton">
+                  <img src={require("./assets/img/right.png")} alt="right" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="fivePicturesTop">
+          <div className="fivePictures">
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
+            </div>
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
+            </div>
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
+            </div>
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
+            </div>
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
             </div>
           </div>
         </div>
       </div>
 
-      <div>
-        <div className="thirdBackground1">
-          <div>
-            <div className="namedCoffee">COFFEE</div>
-            <img
-              className="longCircle"
-              src={require("./assets/img/longCircle.png")}
-            />
-          </div>
-          <img
-            className="circleOrange"
-            src={require("./assets/img/roundOrange.png")}
-          />
-          <div className="nextMenuButton">
-            <div>
-              <a href="">
-                <button className="seeMoreCoffiesMenuButton">
-                  커피 메뉴 더 보기
-                  <img
-                    className="whiteNarrow"
-                    src={require("./assets/img/whitenarrow.png")}
-                  />
-                </button>
-              </a>
-            </div>
-            <div className="leftRightButtons">
-              <div>
-                <a href="">
-                  <button
-                    className="goButton"
-                    src={require("./assets/img/left.png")}
-                  >
-                    <img src={require("./assets/img/left.png")} />
-                  </button>
-                </a>
-              </div>
-              <div>
-                <a href="">
-                  <button className="goButton">
-                    <img src={require("./assets/img/right.png")} />
-                  </button>
-                </a>
+      {/* 세번째 */}
+      {/* 음료메뉴 */}
+      <div className="thirdBackgroundCoffee">
+        <div className="coffeeMenuTopOver">
+          <div className="coffeeMenuTop">
+            <div className="coffeeDecorate">
+              <div className="coffeeText">BEVERAGE</div>
+              <div className="longCircle">
+                <img
+                  src={require("./assets/img/longCircle.png")}
+                  alt="longCircle"
+                />
               </div>
             </div>
-          </div>
-          <div className="fivePictures">
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
+            <div className="roundOrange">
+              <img
+                src={require("./assets/img/roundOrange.png")}
+                alt="roundOrange"
+              />
             </div>
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
-            </div>
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
-            </div>
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
-            </div>
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
-            </div>
-          </div>
-        </div>
-        <div className="thirdBackground2">
-          <div>
-            <div className="namedBeverage">BEVERAGE</div>
-            <img
-              className="longCircle"
-              src={require("./assets/img/longCircle.png")}
-            />
-          </div>
-          <img
-            className="circleOrange"
-            src={require("./assets/img/roundOrange.png")}
-          />
-          <div className="nextMenuButton">
-            <div>
-              <a href="">
-                <button className="seeMoreCoffiesMenuButton">
+            <div className="threeButtons">
+              <div>
+                <button className="seeMoreCoffeeMenuButton">
                   음료 메뉴 더 보기
-                  <img
-                    className="whiteNarrow"
-                    src={require("./assets/img/whitenarrow.png")}
-                  />
                 </button>
-              </a>
-            </div>
-            <div className="leftRightButtons">
-              <div>
-                <a href="">
-                  <button
-                    className="goButton"
-                    src={require("./assets/img/left.png")}
-                  >
-                    <img src={require("./assets/img/left.png")} />
-                  </button>
-                </a>
               </div>
               <div>
-                <a href="">
-                  <button className="goButton">
-                    <img src={require("./assets/img/right.png")} />
-                  </button>
-                </a>
+                <button className="goButton">
+                  <img src={require("./assets/img/left.png")} alt="left" />
+                </button>
               </div>
-            </div>
-          </div>
-          <div className="fivePictures">
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
-            </div>
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
-            </div>
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
-            </div>
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
-            </div>
-            <div className="pictures">
-              <img src={require("./assets/img/box.png")} />
+              <div>
+                <button className="goButton">
+                  <img src={require("./assets/img/right.png")} alt="right" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="tryMenuSection">
-        <div className="blackRadiusBox">
-          <div className="tryMenu">
-            <div className="tryVariousMenu">
-              ㅇㅇ의 다양한 메뉴를 경험해보세요
+
+        <div className="fivePicturesTop">
+          <div className="fivePictures">
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
             </div>
             <div>
-              <button className="seeMoreMenues">더 많은 메뉴 보기</button>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
+            </div>
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
+            </div>
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
+            </div>
+            <div>
+              <img
+                className="pictures"
+                src={require("./assets/img/box.png")}
+                alt="pictures"
+              />
             </div>
           </div>
         </div>
       </div>
-      <div className="footerImage">
-        <img src="" />
-      </div>
-      <div className="footer">
-        {/* 첫 번째 footer/ */}
-        <div className="footerFirstLine">
-          <div className="number">
-            <div className="csCenter">고객센터</div>
-            <div className="csNumber">010.5105.4167</div>
-          </div>
+
+      {/* ㅇㅇ의 다양한 메뉴를 경험해보세요 */}
+      <div className="four">
+        <div className="blackSquare">
+          <div className="tryMenu">ㅇㅇㅇ의 다양한 메뉴를 경험해보세요</div>
           <div>
-            <img
-              className="narrowDec"
-              src={require("./assets/img/narrowDec.png")}
-            />
-          </div>
-          <div className="sns">
-            <div className="followUs">FOLLOW US!</div>
-            <div className="threeSnsBoxes">
-              <img src="" />
-              <img src="" />
-              <img src="" />
-            </div>
-          </div>
-        </div>
-        <div className="footerSecondLine">
-          <div className="">
-            <div className="cafeNav">
-              <span className="cafeNavHref" href="">
-                공지사항
-              </span>
-              <span className="cafeNavHref" href="">
-                가맹점문의
-              </span>
-              <span className="cafeNavHref" href="">
-                찾아오시는길
-              </span>
-              <span className="cafeNavHref" href="">
-                개인정보처리방침
-              </span>
-              <span className="cafeNavHref" href="">
-                이용약관
-              </span>
-            </div>
-            <div className="cafeAddress">
-              <span className="cafeAddressData">
-                사업자등록번호: 185-76-55293
-              </span>
-              <span className="cafeAddressData">대표:이금송</span>
-              <span className="cafeAddressData">서울시 성동구 상원1길 25</span>
-              <span className="cafeAddressData">TEL:010.5105.4167</span>
-              <span className="cafeAddressData">개인정보책임자:코쿤</span>
-            </div>
-            <div className="copyright">
-              ⓒ2023 ㅇㅇㅇ Coffee.All Rights Reserved.
-            </div>
+            <button className="seeMoreVariousMenu">
+              더 많은 메뉴 보러가기
+            </button>
           </div>
         </div>
       </div>
+      <div> </div>
+      {/* <div className="footerImage"></div>
+          <div className="footer">
+            첫 번째 footer/
+            <div className="footerFirstLine">
+              <div className="number">
+                <div className="csCenter">고객센터</div>
+                <div className="csNumber">010.5105.4167</div>
+              </div>
+              <div>
+                <img
+                  className="narrowDec"
+                  src={require("./assets/img/narrowDec.png")}
+                  alt="narrow"
+                />
+              </div>
+              <div className="sns">
+                <div className="followUs">FOLLOW US!</div>
+                <div className="threeSnsBoxes">
+                  <img src="" />
+              <img src="" />
+              <img src="" />
+                </div>
+              </div>
+            </div>
+            <div className="footerSecondLine">
+              <div className="">
+                <div className="cafeNav">
+                  <span className="cafeNavHref" href="">
+                    공지사항
+                  </span>
+                  <span className="cafeNavHref" href="">
+                    가맹점문의
+                  </span>
+                  <span className="cafeNavHref" href="">
+                    찾아오시는길
+                  </span>
+                  <span className="cafeNavHref" href="">
+                    개인정보처리방침
+                  </span>
+                  <span className="cafeNavHref" href="">
+                    이용약관
+                  </span>
+                </div>
+                <div className="cafeAddress">
+                  <span className="cafeAddressData">
+                    사업자등록번호: 185-76-55293
+                  </span>
+                  <span className="cafeAddressData">대표:이금송</span>
+                  <span className="cafeAddressData">
+                    서울시 성동구 상원1길 25
+                  </span>
+                  <span className="cafeAddressData">TEL:010.5105.4167</span>
+                  <span className="cafeAddressData">개인정보책임자:코쿤</span>
+                </div>
+                <div className="copyright">
+                  ⓒ2023 ㅇㅇㅇ Coffee.All Rights Reserved.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
       {/*
       </div>
       <div className="secondMainImage">
@@ -364,7 +403,7 @@ function App() {
             <div className="BeverageImageThree" src="" />
             <div className="BeverageImageFour" src="" />
           </div>
-        </div>
+          </div>
       </div>*/}
     </div>
   );
