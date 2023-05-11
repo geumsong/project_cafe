@@ -297,7 +297,38 @@ function App() {
           </div>
         </div>
       </div>
-      <div> </div>
+      <div>
+        <div>
+          <div>
+            <div>고객센터</div>
+            <div>010.5105.4167</div>
+          </div>
+          <div>
+            <div>
+              <img src={require("./assets/img/narrowDec.png")} />
+            </div>
+            <div>
+              <div>FOLLOW US!</div>
+              <div>{/* 이곳에 SNS박스 3개 추가 */}</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span>공지사항</span>
+          <span>가맹점문의</span>
+          <span>찾아오시는길</span>
+          <span>개인정보처리방침</span>
+          <span>이용약관</span>
+        </div>
+        <div>
+          <span>사업자등록번호:185-75-55293</span>
+          <span>대표:이금송</span>
+          <span>서울시 금송구 금송1길 25</span>
+          <span>TEL:010.5105.4167</span>
+          <span>개인정보책임자:덱스</span>
+        </div>
+        <div>ⓒㅇㅇㅇCoffee.All Rights Reserved.</div>
+      </div>
       {/* <div className="footerImage"></div>
           <div className="footer">
             첫 번째 footer/
