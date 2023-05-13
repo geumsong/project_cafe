@@ -23,6 +23,7 @@
   margin-bottom: 30px;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
   color: #979797;
 }
 
@@ -141,7 +142,7 @@
 
 .menuFrames {
   margin-left: 50px;
-  height: 46vh;
+  height: 340px;
 }
 
 .secondTitle {
@@ -167,7 +168,7 @@
 
 .narrow {
   margin-left: 15px;
-  height: 2.5vh;
+  height: 15px;
 }
 
 .moreCoffeeBeanButton {
@@ -322,7 +323,106 @@
   cursor: pointer;
 }
 
-.footerImage {
+.cafeImage {
+  width: 100%;
+  height: 300px;
+  background-color: chartreuse;
+}
+
+/* footer */
+.footerBackground {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+
+.firstLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1350px;
+  height: 180px;
+  margin-left: 80px;
+}
+
+.csCenter {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sns {
+  align-items: center;
+}
+.csCenterNumber {
+  color: #e57741;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.pigNarrow {
+  width: 25px;
+  height: 58px;
+  margin-right: 20px;
+}
+
+.followSns {
+  display: flex;
+  flex-direction: column;
+}
+
+.followUs {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.snsLink {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.sns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.snsImage {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.textMargin {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.mainClick {
+  color: white;
+  font-weight: 600;
+  margin-right: 34px;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
+
+.serve {
+  margin-top: 10px;
+}
+
+.serveText {
+  margin-right: 34px;
+  font-size: 14px;
+  letter-spacing: -1px;
+  color: #9b9b9b;
+}
+
+.copyright {
+  color: #9b9b9b;
+  margin-top: 40px;
+}
+/* .footerImage {
   margin-top: 50px;
   width: 100%;
   height: 300px;
@@ -341,9 +441,9 @@
   width: 100%;
   height: 150px;
   background-color: black;
-}
+} */
 
-.number {
+/* .number {
   align-items: center;
 }
 
@@ -404,4 +504,4 @@
   font-weight: 600;
   letter-spacing: -1px;
   color: #9b9b9b;
-}
+} */

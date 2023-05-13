@@ -285,7 +285,6 @@ function App() {
           </div>
         </div>
       </div>
-
       {/* ㅇㅇ의 다양한 메뉴를 경험해보세요 */}
       <div className="four">
         <div className="blackSquare">
@@ -297,145 +296,68 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div>
-            <div>고객센터</div>
-            <div>010.5105.4167</div>
+      <div className="cafeImage"></div>
+      {/* footer */}
+      <div className="footerBackground">
+        <div className="firstLine">
+          <div className="cs">
+            <div className="csCenter">고객센터</div>
+            <div className="csCenterNumber">010. 5105. 4167</div>
           </div>
           <div>
-            <div>
-              <img src={require("./assets/img/narrowDec.png")} />
-            </div>
-            <div>
-              <div>FOLLOW US!</div>
-              <div>{/* 이곳에 SNS박스 3개 추가 */}</div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <span>공지사항</span>
-          <span>가맹점문의</span>
-          <span>찾아오시는길</span>
-          <span>개인정보처리방침</span>
-          <span>이용약관</span>
-        </div>
-        <div>
-          <span>사업자등록번호:185-75-55293</span>
-          <span>대표:이금송</span>
-          <span>서울시 금송구 금송1길 25</span>
-          <span>TEL:010.5105.4167</span>
-          <span>개인정보책임자:덱스</span>
-        </div>
-        <div>ⓒㅇㅇㅇCoffee.All Rights Reserved.</div>
-      </div>
-      {/* <div className="footerImage"></div>
-          <div className="footer">
-            첫 번째 footer/
-            <div className="footerFirstLine">
-              <div className="number">
-                <div className="csCenter">고객센터</div>
-                <div className="csNumber">010.5105.4167</div>
-              </div>
-              <div>
-                <img
-                  className="narrowDec"
-                  src={require("./assets/img/narrowDec.png")}
-                  alt="narrow"
-                />
-              </div>
-              <div className="sns">
+            <div className="sns">
+              <img
+                className="pigNarrow"
+                src={require("./assets/img/narrowDec.png")}
+                alt="돼지꼬리화살표"
+              />
+              <div className="followSns">
                 <div className="followUs">FOLLOW US!</div>
-                <div className="threeSnsBoxes">
-                  <img src="" />
-              <img src="" />
-              <img src="" />
+                <div className="snsLink">
+                  <div>
+                    <img
+                      className="snsImage"
+                      src={require("./assets/img/youtube.png")}
+                      alt="유튜브"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="snsImage"
+                      src={require("./assets/img/instagram.png")}
+                      alt="인스타"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="snsImage"
+                      src={require("./assets/img/facebook.png")}
+                      alt="페이스북"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="footerSecondLine">
-              <div className="">
-                <div className="cafeNav">
-                  <span className="cafeNavHref" href="">
-                    공지사항
-                  </span>
-                  <span className="cafeNavHref" href="">
-                    가맹점문의
-                  </span>
-                  <span className="cafeNavHref" href="">
-                    찾아오시는길
-                  </span>
-                  <span className="cafeNavHref" href="">
-                    개인정보처리방침
-                  </span>
-                  <span className="cafeNavHref" href="">
-                    이용약관
-                  </span>
-                </div>
-                <div className="cafeAddress">
-                  <span className="cafeAddressData">
-                    사업자등록번호: 185-76-55293
-                  </span>
-                  <span className="cafeAddressData">대표:이금송</span>
-                  <span className="cafeAddressData">
-                    서울시 성동구 상원1길 25
-                  </span>
-                  <span className="cafeAddressData">TEL:010.5105.4167</span>
-                  <span className="cafeAddressData">개인정보책임자:코쿤</span>
-                </div>
-                <div className="copyright">
-                  ⓒ2023 ㅇㅇㅇ Coffee.All Rights Reserved.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-      {/*
-      </div>
-      <div className="secondMainImage">
-        <div className="imageOne" src="" />
-        <div className="imageTwo" src="" />
-        <div className="imageThree" src="" />
-        <h1>Coffee Bean</h1>
-        <div className="look" onclick="" />
-        <div className="secondBackground" src="" />
-      </div>
-      <div className="menuComponent">
-        <div className="menuBackgroundImage" src="" />
-        <div className="titleCoffee">COFFEE.</div>
-        <div
-          className="seeMoreCoffeeies"
-          onclick=""
-          value="커피 메뉴 더 보기"
-        />
-        <div className="leftRightButtons">
-          <div className="leftButton" onclick="" src="" />
-          <div className="rightButton" onclick="" src="" />
-          <div className="coffeeMenuImages">
-            <div className="coffeeImageOne" src="" />
-            <div className="coffeeImageTwo" src="" />
-            <div className="coffeeImageThree" src="" />
-            <div className="coffeeImageFour" src="" />
           </div>
         </div>
-        <div className="beverageBackgroundImage" src="" />
-        <div className="titleBeverage">BEVERAGE.</div>
-        <div
-          className="seeMoreBeverages"
-          onclick=""
-          value="음료 메뉴 더 보기"
-        />
-        <div className="leftRightButtons">
-          <div className="leftButton" onclick="" src="" />
-          <div className="rightButton" onclick="" src="" />
-          <div className="BeverageMenuImages">
-            <div className="BeverageImageOne" src="" />
-            <div className="BeverageImageTwo" src="" /> 
-            <div className="BeverageImageThree" src="" />
-            <div className="BeverageImageFour" src="" />
+        <div className="textMargin">
+          <div>
+            <span className="mainClick">공지사항</span>
+            <span className="mainClick">가맹점문의</span>
+            <span className="mainClick">찾아오시는길</span>
+            <span className="mainClick">개인정보처리방침</span>
+            <span className="mainClick">이용약관</span>
           </div>
+          <div className="serve">
+            <span className="serveText">사업자등록번호:185-75-55293</span>
+            <span className="serveText">대표:이금송</span>
+            <span className="serveText">서울시 금송구 금송1길 25</span>
+            <span className="serveText">TEL:010.5105.4167</span>
+            <span className="serveText">개인정보책임자:덱스</span>
           </div>
-      </div>*/}
+          <div className="copyright">ⓒㅇㅇㅇCoffee.All Rights Reserved.</div>
+        </div>
+      </div>
     </div>
   );
 }
