@@ -1,5 +1,8 @@
 import "./styles/app.css";
 import React from "react";
+// nav카테고리에 Link to 태그 추가 - 작동안됨
+import { BrowserRouter, Route } from "react-router-dom";
+import AboutPage from "./AboutPage";
 // import cup_logo from "./assets/img/cuplogo.png";
 
 function App() {
@@ -8,12 +11,16 @@ function App() {
       <div className="header">
         <img
           className="logo"
-          href=""
           src={require("./assets/img/cuplogo.png")}
           alt="로고"
         />
         <div className="categories">
-          <span className="nav">ABOUT</span>
+          <span className="nav">
+            <BrowserRouter>
+              <Route path="/" component={AboutPage} />
+              ABOUT
+            </BrowserRouter>
+          </span>
           <span className="nav">MENU</span>
           <span className="nav">NEWS</span>
           <span className="nav">SERVICE</span>
