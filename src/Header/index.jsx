@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/header.css';
 
 const Header = () => {
+  // 공부해라
   return (
     <div className="header">
       <img

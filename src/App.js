@@ -6,6 +6,7 @@ import Header from '../src/Header';
 import AboutPage from './Pages/AboutPage';
 
 function App() {
+  // 공부해라
   return (
     <div>
       <Header />
