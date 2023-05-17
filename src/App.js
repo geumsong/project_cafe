@@ -1,19 +1,18 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// nav카테고리에 Link to 태그 추가 - 작동안됨
-import Home from './Pages/home';
-import Header from '../src/Header';
-import AboutPage from './Pages/AboutPage';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// ./Header 로 적으면 안되나?
+import Header from "./Header";
+import Home from "./Pages/home";
+import AboutPage from "./Pages/aboutPage";
 
 function App() {
-  // 공부해라
   return (
     <div>
       <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />
-          <Route path="/aboutpage" Component={AboutPage} />
+          <Route path="/aboutPage" Component={AboutPage} />
         </Routes>
       </BrowserRouter>
     </div>
