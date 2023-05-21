@@ -1,0 +1,84 @@
+.checkButton {
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.notCheckButton {
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #232323;
+  background-color: #f4f4f4;
+  border: #e8e8e8 solid 1px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pictureBox_a_section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 620px;
+}
+
+.pictureBox_a {
+  margin-top: 70px;
+  width: 1100px;
+  height: 550px;
+  background-color: rgb(227, 116, 116);
+}
+
+.pictureBox_b_section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 950px;
+}
+
+.pictureBox_b {
+  width: 980px;
+  height: 600px;
+  background-color: red;
+}
+
+.grayBox_c {
+  position: absolute;
+  z-index: -1;
+  margin-top: 450px;
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+}
+
+.pictureBox_d {
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(206, 57, 57);
+}
+
+.pictureBox_e_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 750px;
+}
+
+.pictureBox_e {
+  width: 1100px;
+  height: 450px;
+  background-color: rgb(208, 40, 40);
+}
