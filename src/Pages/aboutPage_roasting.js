@@ -20,10 +20,29 @@ const aboutPage_roasting = () => {
         </div>
       </div>
 
-      {/* 사진 2개 */}
+      {/* 사진 2개-1번째 */}
       <div className="roasting_pictureBox_a"></div>
       <div className="roasting_pictureBox_a"></div>
 
+      {/* 2번째 사진 */}
+      <div className="roasting_pictureBox_b_section">
+        <div className="roasting_pictureBox_b"></div>
+      </div>
+
+      {/* 세번째사진 */}
+      <div className="roasting_pictureBox_c">
+        <div>
+          <div className="circle_section">
+            <div className="circle"></div>
+          </div>
+          <div className="two_circles_section">
+            <div className="two_circles">
+              <div className="circle"></div>
+              <div className="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* 푸터 버튼 세 개 */}
       <div className="aboutNav_footer">
         <div className="aboutNav_footer_a">

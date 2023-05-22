@@ -14,7 +14,9 @@ const aboutPage_coffee = () => {
           <button className="checkButton">
             <Link to="/aboutPage_coffee">마다메커피</Link>
           </button>
-          <button className="notCheckButton">원두로스팅</button>
+          <button className="notCheckButton">
+            <Link to="/aboutPage_roasting">원두로스팅</Link>
+          </button>
         </div>
       </div>
 
@@ -63,7 +65,9 @@ const aboutPage_coffee = () => {
             <button className="checkButton ">
               <Link to="/aboutPage_coffee">마다메커피</Link>
             </button>
-            <button className="notCheckButton ">원두로스팅</button>
+            <button className="notCheckButton ">
+              <Link to="/aboutPage_roasting">원두로스팅</Link>
+            </button>
           </div>
         </div>
         <button className="topButton">

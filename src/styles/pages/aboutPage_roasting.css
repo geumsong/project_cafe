@@ -1,5 +1,57 @@
-.roastingPictureBox_a {
-    width: 100%;
-    height: 600px;
-    background-color: aqua;
+.roasting_pictureBox_a {
+  width: 100%;
+  height: 800px;
+  background-color: aqua;
+}
+
+.roasting_pictureBox_b_section {
+  display: flex;
+  /* 이거때문에 warning이뜸 */
+  align-items: end;
+  justify-content: center;
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(32, 139, 103);
+}
+
+.roasting_pictureBox_b {
+  margin-bottom: 150px;
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(220, 136, 136);
+}
+
+.roasting_pictureBox_c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  background-color: rgb(139, 102, 102);
+}
+
+.two_circles_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two_circles {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.circle_section {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  justify-items: center;
+  width: 160px;
+  height: 160px;
+  background-color: blue;
+  border-radius: 100px;
 }
