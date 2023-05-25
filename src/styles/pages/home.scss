@@ -1,62 +1,69 @@
-.mainImage {
+.mainBackgroundImage {
   width: 100%;
   height: 600px;
   background-color: #8a2be2;
+
+  .mainBackgroundTitle {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 80px;
+
+    .mainFirstTitleText {
+      margin-top: 90px;
+      font-size: 24px;
+      color: white;
+    }
+
+    .mainBigTitleText {
+      width: 320px;
+      margin-top: 20px;
+    }
+
+    .goToNewMenuButton {
+      width: 200px;
+      height: 60px;
+      text-align: center;
+      margin-top: 25px;
+      background-color: lightgray;
+      background-color: rgba(211, 211, 211, 0.8);
+      border-radius: 30px;
+      cursor: pointer;
+      border: none;
+
+      .goToNewMenu {
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
 }
 
-.mainImageTitle {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  margin-left: 80px;
-}
-
-.smallTitleText {
-  margin-top: 90px;
-  font-size: 24px;
-  color: white;
-}
-
-.bigTitleText {
-  width: 320px;
-  margin-top: 20px;
-}
-
-.goToNewMenu {
-  width: 200px;
-  height: 60px;
-  text-align: center;
-  margin-top: 25px;
-  background-color: lightgray;
-  background-color: rgba(211, 211, 211, 0.8);
-  font-size: 16px;
-  border-radius: 30px;
-  cursor: pointer;
-  border: none;
-}
-
-.EmeraldPlusChoco {
+.emeraldAndChocoText {
   letter-spacing: -0.5px;
   color: white;
   white-space: pre-line;
+
+  //absoloute 코드 빼서 다시 코드짜기
+  .emeraldLatte {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 500px;
+    right: 500px;
+  }
+
+  .chocoBeachLatte {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    right: 300px;
+  }
 }
 
-.chocoBeachLatte {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 300px;
-  right: 300px;
-}
-
-.EmeraldLatte {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 500px;
-  right: 500px;
-}
-
+//중복되는건 밖으로 꺼내놓는게 좋을까?
 .name {
   font-size: 22px;
   font-weight: 600;
@@ -122,7 +129,8 @@
   align-items: center;
   width: 100%;
   height: 609px;
-  background-image: url(/src/assets/img/backgroundCheckPattern.png);
+  // 에러발생
+  // background-image: url(/src/assets/img/backgroundCheckPattern.png);
   background-size: 100%;
 }
 

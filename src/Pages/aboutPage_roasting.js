@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/pages/aboutPage_roasting.css";
+import "../styles/pages/aboutPage_roasting.scss";
 import { Link } from "react-router-dom";
 
 const aboutPage_roasting = () => {
@@ -66,6 +66,7 @@ const aboutPage_roasting = () => {
           />
           TOP
         </button>
+
       </div>
     </div>
   );

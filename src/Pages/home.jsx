@@ -1,27 +1,26 @@
 import React from "react";
-import "../styles/pages/home.css";
+import "../styles/pages/home.scss";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
       {/* 메인이미지 */}
-      <div className="mainImage">
-        <div className="mainImageTitle">
-          <span className="smallTitleText">여름시즌 신메뉴 출시!</span>
+      <div className="mainBackgroundImage">
+        <div className="mainBackgroundTitle">
+          <span className="mainFirstTitleText">여름시즌 신메뉴 출시!</span>
           <img
-            className="bigTitleText"
+            className="mainBigTitleText"
             src={require("../assets/img/summer.png")}
             alt="제목"
           />
-          <button className="goToNewMenu">
+          <button className="goToNewMenuButton">
             {/* Link to 경로 menuPage 생성되면 변경할것 */}
-            <Link to="/aboutPage_brand">신 메뉴 보러가기 </Link>
+            <Link to="/aboutPage_brand" className="goToNewMenu">신 메뉴 보러가기 </Link>
           </button>
         </div>
-
-        <div className="EmeraldPlusChoco">
-          <div className="EmeraldLatte">
+        <div className="emeraldAndChocoText">
+          <div className="emeraldLatte">
             <span className="name"> 에메랄드 라떼</span>
             <span className="englishName">Emerald Latte</span>
             <span className="explanation">

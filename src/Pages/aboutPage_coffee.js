@@ -62,7 +62,7 @@ const aboutPage_coffee = () => {
             <button className="notCheckButton">
               <Link to="/aboutPage_brand">브랜드소개</Link>
             </button>
-            <button className="checkButton ">
+            <button className="checkButton">
               <Link to="/aboutPage_coffee">마다메커피</Link>
             </button>
             <button className="notCheckButton ">
