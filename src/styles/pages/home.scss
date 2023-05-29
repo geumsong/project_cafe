@@ -1,12 +1,14 @@
 .mainBackgroundImage {
+  display: flex;
   width: 100%;
   height: 600px;
-  background-color: #8a2be2;
+  background-image: url(../../assets/img/Rectangle2.png);
+  background-size: cover;
+  background-position: center;
 
   .mainBackgroundTitle {
     display: flex;
     flex-direction: column;
-    position: absolute;
     margin-left: 80px;
 
     .mainFirstTitleText {
@@ -21,12 +23,13 @@
     }
 
     .goToNewMenuButton {
-      width: 200px;
-      height: 60px;
+      width: 180px;
+      height: 50px;
       text-align: center;
       margin-top: 25px;
-      background-color: lightgray;
-      background-color: rgba(211, 211, 211, 0.8);
+      font-size: 16px;
+      letter-spacing: -0.5px;
+      background-color: rgba(255, 255, 255, 0.711);
       border-radius: 30px;
       cursor: pointer;
       border: none;
@@ -38,43 +41,43 @@
       }
     }
   }
-}
 
-.emeraldAndChocoText {
-  letter-spacing: -0.5px;
-  color: white;
-  white-space: pre-line;
-
-  //absoloute 코드 빼서 다시 코드짜기
-  .emeraldLatte {
+  .watermelonAndBlueText {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 500px;
-    right: 500px;
+    letter-spacing: -0.5px;
+    white-space: pre-line;
+
+    //absoloute 코드 빼서 다시 코드짜기
+    .watermelonLatte {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      margin-top: 80px;
+      margin-left: 730px;
+    }
+
+    .blueBeachLatte {
+      display: flex;
+      flex-direction: column;
+      margin-top: 150px;
+      margin-left: 190px;
+    }
+  }
+  //중복되는건 밖으로 꺼내놓는게 좋을까?
+  .name {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(30, 30, 30);
   }
 
-  .chocoBeachLatte {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 300px;
-    right: 300px;
+  .englishName {
+    font-size: 18px;
   }
-}
 
-//중복되는건 밖으로 꺼내놓는게 좋을까?
-.name {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.englishName {
-  font-size: 18px;
-}
-
-.explanation {
-  margin-top: 50px;
+  .explanation {
+    margin-top: 30px;
+  }
 }
 
 /* 공지사항,이벤트 섹션 */
@@ -82,37 +85,40 @@
   display: flex;
   background-color: rgb(0, 0, 0);
   width: 100%;
-}
 
-.noticeSection {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-}
+  .noticeSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+  }
 
-.noticeMainTitle {
-  margin-left: 150px;
-  color: white;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 70px;
+  .noticeMainTitle {
+    margin-left: 150px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 70px;
+  }
 }
 
 .noticeTitle {
   margin-left: 40px;
   color: white;
+  cursor: pointer;
 }
 
 .plus {
   margin: auto;
+  cursor: pointer;
 }
 
 .secondBackground {
   display: flex;
   flex-basis: auto;
   height: 400px;
+  background-color: aqua;
 }
 
 .menuFrames {
@@ -129,8 +135,7 @@
   align-items: center;
   width: 100%;
   height: 609px;
-  // 에러발생
-  // background-image: url(/src/assets/img/backgroundCheckPattern.png);
+  background-image: url(../../assets/img/backgroundCheckPattern.png);
   background-size: 100%;
 }
 

@@ -5,11 +5,13 @@ const Header = () => {
   return (
     <div>
       <div className="header">
-        <img
-          className="logo"
-          src={require("../assets/img/cuplogo.png")}
-          alt="로고"
-        />
+        <a href="/">
+          <img
+            className="logo"
+            src={require("../assets/img/cuplogo.png")}
+            alt="로고"
+          />
+        </a>
 
         <div className="categories">
           <span className="nav">ABOUT</span>

@@ -14,30 +14,34 @@ const Home = () => {
             src={require("../assets/img/summer.png")}
             alt="제목"
           />
-          <button className="goToNewMenuButton">
-            {/* Link to 경로 menuPage 생성되면 변경할것 */}
-            <Link to="/aboutPage_brand" className="goToNewMenu">신 메뉴 보러가기 </Link>
-          </button>
+          <Link to="/aboutPage_brand" className="goToNewMenu">
+            <button className="goToNewMenuButton">
+              {/* Link to 경로 menuPage 생성되면 변경할것 */}신 메뉴 보러가기
+            </button>
+          </Link>
         </div>
-        <div className="emeraldAndChocoText">
-          <div className="emeraldLatte">
-            <span className="name"> 에메랄드 라떼</span>
-            <span className="englishName">Emerald Latte</span>
+
+        <div className="watermelonAndBlueText">
+          <div className="watermelonLatte">
+            <span className="name">워터멜론 라떼</span>
+            <span className="englishName">Watermelon Latte</span>
             <span className="explanation">
               코코넛과 레몬, 그리고 초코를 넣은 {"\n"}상큼 달달한 라떼
             </span>
           </div>
-          <div className="chocoBeachLatte">
-            <span className="name">초코 비치 라떼</span>
-            <span className="englishName">Choco Beach Latte</span>
+          <div className="blueBeachLatte">
+            <span className="name">블루 비치 라떼</span>
+            <span className="englishName">Blue Beach Latte</span>
             <span className="explanation">
-              초코시럽과 블루티를 넣어 {"\n"} 섞은 에티오피아 원두로 만든 라떼
+              블루티를 넣어 섞은 {"\n"}에티오피아 원두로 만든 라떼
             </span>
           </div>
         </div>
       </div>
+
       <div className="EmeraldLatteImage" src="" alt="에메랄드라떼" />
       <div className="chocoBeachLatteImage" src="" alt="초코비치라떼" />
+
       {/* 공지사항,이벤트 섹션 */}
       <div className="blackbox">
         <div className="noticeSection">

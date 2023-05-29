@@ -10,7 +10,7 @@ import Footer from "./Pages/footer";
 function App() {
   return (
     <div>
-      <Header />
+      <Header/>
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />
