@@ -15,6 +15,7 @@
       margin-top: 90px;
       font-size: 24px;
       color: white;
+      letter-spacing: -0.8px;
     }
 
     .mainBigTitleText {
@@ -101,35 +102,20 @@
     font-size: 18px;
     line-height: 70px;
   }
+
+  .noticeTitle {
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .plus {
+    margin: auto;
+    cursor: pointer;
+  }
 }
 
-.noticeTitle {
-  margin-left: 40px;
-  color: white;
-  cursor: pointer;
-}
-
-.plus {
-  margin: auto;
-  cursor: pointer;
-}
-
-.secondBackground {
-  display: flex;
-  flex-basis: auto;
-  height: 400px;
-  background-color: aqua;
-}
-
-.menuFrames {
-  margin-left: 50px;
-  height: 340px;
-}
-
-.secondTitle {
-  margin: auto;
-}
-
+// 두번째 타이틀 섹션
 .secondBackground {
   display: flex;
   align-items: center;
@@ -137,34 +123,46 @@
   height: 609px;
   background-image: url(../../assets/img/backgroundCheckPattern.png);
   background-size: 100%;
+
+  .menuFrames {
+    margin-left: 50px;
+    height: 340px;
+  }
+
+  .secondTitle {
+    margin: auto;
+
+    .coffeeBean {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 70px;
+      color: white;
+
+      .moreCoffeeBeanButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 50px;
+        margin-top: 16px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.85);
+        font-size: 16px;
+        letter-spacing: -0.5px;
+        border-radius: 30px;
+        cursor: pointer;
+        border: none;
+
+        .narrow {
+          margin-left: 15px;
+          height: 15px;
+        }
+      }
+    }
+  }
 }
 
-.coffeeBean {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 75px;
-  color: white;
-}
-
-.narrow {
-  margin-left: 15px;
-  height: 15px;
-}
-
-.moreCoffeeBeanButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 60px;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.85);
-  font-size: 17px;
-  border-radius: 30px;
-  cursor: pointer;
-  border: none;
-}
 /* 세번째 */
 /* 커피메뉴 */
 .thirdBackgroundCoffee {
@@ -271,8 +269,8 @@
   justify-content: center;
   align-items: center;
   height: 380px;
-  background-color: yellow;
 }
+
 .blackSquare {
   display: flex;
   flex-direction: column;
@@ -308,4 +306,5 @@
   width: 100%;
   height: 300px;
   background-color: chartreuse;
+  background-image: url(../../assets/img/underImage.png);
 }
