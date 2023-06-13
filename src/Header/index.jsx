@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/header.scss";
+import {  Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,8 +15,10 @@ const Header = () => {
         </a>
 
         <div className="categories">
-          <span className="nav">ABOUT</span>
-          <span className="nav">MENU</span>
+          <a href="../Pages/aboutPage_brand" className="nav">
+            ABOUT
+          </a>
+              <Link to="/aboutPage_brand">MENU</Link>
           <span className="nav">NEWS</span>
           <span className="nav">SERVICE</span>
         </div>
