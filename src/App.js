@@ -11,8 +11,9 @@ import Footer from "./Pages/footer";
 function App() {
   return (
     <div>
+      {/* BrowserRouter 의 자식태그가 되어야 Link태그가 동작함 */}
+      <BrowserRouter> 
       <Header />
-      <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />
           <Route path="/aboutPage_brand" Component={AboutPage_brand} />
