@@ -13,13 +13,12 @@ const menu = () => {
       </div>
       <div className="iconBox">
         <div className="threeIconBoxes">
-          <div className="emptyIconBox">
+          <div className="selectIconBox">
             <img
-              className="coffeeIcon"
-              src={require("../assets/img/coffeeIcon.png")}
+              src={require("../assets/img/coffeeIconBlack.png")}
               alt="커피아이콘"
             />
-            <div className="iconName">COFFEE</div>
+            <div className="selectIconName">COFFEE</div>
           </div>
           <div className="emptyIconBox">
             <img
@@ -45,15 +44,155 @@ const menu = () => {
 
       {/* menu - COFFEE 시작 */}
       <div className="coffeeMenuTitleSection">
-        <div className="coffeeMenuTitle">
-          COFFEE
+        <div className="coffeeMenuTitle">COFFEE</div>
+        <div className="longOrangeCircle">
           <img
-            className="longOrageCircle"
             src={require("../assets/img/longOrangeCircle.png")}
             alt="오렌지색 원"
           />
         </div>
       </div>
+      {/* COFFEE 메뉴 이미지 8개 */}
+      <div className="eightMenuBoxesSection">
+        <div className="fourCoffeeMenuBoxes">
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+        </div>
+        <div className="fourCoffeeMenuBoxes">
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+        </div>
+      </div>
+      {/* COFFEE메뉴 영역 끝 */}
+
+      {/* BEVERAGE 메뉴 영역 시작 */}
+      <div className="coffeeMenuTitleSection">
+        <div className="coffeeMenuTitle">BEVERAGE</div>
+        <div className="longOrangeCircle">
+          <img
+            src={require("../assets/img/longOrangeCircle.png")}
+            alt="오렌지색 원"
+          />
+        </div>
+      </div>
+      {/* BEVERAGE 메뉴 이미지 8개 */}
+      <div className="eightMenuBoxesSection">
+        <div className="fourCoffeeMenuBoxes">
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+        </div>
+        <div className="fourCoffeeMenuBoxes">
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+        </div>
+      </div>
+      {/* BEVERAGE 메뉴 영역 끝 */}
+      {/* DESSERT 메뉴 영역 시작 */}
+      <div className="coffeeMenuTitleSection">
+        <div className="coffeeMenuTitle">DESSERT</div>
+        <div className="longOrangeCircle">
+          <img
+            src={require("../assets/img/longOrangeCircle.png")}
+            alt="오렌지색 원"
+          />
+        </div>
+      </div>
+      {/* DESSERT 메뉴 이미지 8개 */}
+      <div className="eightMenuBoxesSection">
+        <div className="fourCoffeeMenuBoxes">
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+        </div>
+        <div className="fourCoffeeMenuBoxes">
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+          <div className="eachCoffeeMenues">
+            <div className="coffeeMenu"></div>
+            <div className="coffeeName">커피메뉴이름</div>
+          </div>
+        </div>
+      </div>
+      {/* BEVERAGE 메뉴 영역 끝 */}
     </div>
   );
 };
