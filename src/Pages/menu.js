@@ -14,18 +14,23 @@ const menu = () => {
       <div className="iconBox">
         <div className="threeIconBoxes">
           <div className="selectIconBox">
-            <img
-              src={require("../assets/img/coffeeIconBlack.png")}
-              alt="커피아이콘"
-            />
+            <div className="iconSection">
+              <img
+                className="coffeeIcon"
+                src={require("../assets/img/selectCoffeeIcon.png")}
+                alt="커피아이콘"
+              />
+            </div>
             <div className="selectIconName">COFFEE</div>
           </div>
           <div className="emptyIconBox">
-            <img
-              className="beverageIcon"
-              src={require("../assets/img/beverageIcon.png")}
-              alt="음료아이콘"
-            />
+            <div className="iconSection">
+              <img
+                className="beverageIcon"
+                src={require("../assets/img/beverageIcon.png")}
+                alt="음료아이콘"
+              />
+            </div>
             <div className="iconName">BEVERAGE</div>
           </div>
           <div className="emptyIconBox">
@@ -35,8 +40,8 @@ const menu = () => {
                 src={require("../assets/img/dessertIcon.png")}
                 alt="디저트아이콘"
               />
-              <div className="iconName">DESSERT</div>
             </div>
+            <div className="iconName">DESSERT</div>
           </div>
         </div>
       </div>
@@ -192,8 +197,9 @@ const menu = () => {
           </div>
         </div>
       </div>
-      {/* BEVERAGE 메뉴 영역 끝 */}
+      <div className="footerSpacing"></div>
     </div>
+    // BEVERAGE 메뉴 영역 끝
   );
 };
 

@@ -1,0 +1,151 @@
+// 검색 시작
+.searchRoundBox {
+  display: flex;
+  width: 250px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #d1d1d1;
+}
+
+.searchSection {
+  width: 100%;
+  height: 100px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 100px;
+  width: 380px;
+  height: 40px;
+  border: 1px solid #d1d1d1;
+  border-radius: 30px;
+  letter-spacing: -2px;
+  float: right;
+}
+
+.searchText {
+  display: flex;
+  margin-left: 20px;
+  width: 280px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+}
+
+.noticeSearchIcon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+// 검색끝
+
+.noticeTitleSection {
+  display: flex;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 30px;
+}
+
+.noticeMainText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noticeTextOrangeCircle {
+  display: flex;
+  justify-content: center;
+}
+
+.noticePageTitle {
+  margin-left: 80px;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.longOrangeCircle {
+  position: absolute;
+  margin-left: 50px;
+}
+
+.noticePageTitleKorean {
+  margin-top: 55px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+// 공지사항 시작
+.wholeNoticeBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// 공지사항 상단바 시작
+.noticeboardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1360px;
+  height: 60px;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  background-color: black;
+}
+
+.headerTextFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 60px;
+}
+
+.headerTextSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 60px;
+}
+
+.headerTextThird {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 60px;
+}
+
+.headerTextFourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 60px;
+}
+// 공지사항 상단바 끝
+// 공지사항 바디파트 시작
+.noticeboardBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1360px;
+  height: 60px;
+  letter-spacing: -1px;
+}
+
+.bodyTextNuFourSection {
+  display: flex;
+  align-items: center;
+  width: 175px;
+  height: 60px;
+}

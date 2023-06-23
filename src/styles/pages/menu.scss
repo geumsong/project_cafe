@@ -7,17 +7,17 @@
   width: 100%;
   height: 260px;
   margin-bottom: -20px;
+}
 
-  .menuText {
-    font-size: 65px;
-    font-weight: 900;
-  }
+.menuText {
+  font-size: 65px;
+  font-weight: 900;
+}
 
-  .menuSideText {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: -0.5px;
-  }
+.menuSideText {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
 }
 
 .iconBox {
@@ -25,55 +25,63 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-
-  .threeIconBoxes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 450px;
-
-    .selectIconBox {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 140px;
-      height: 140px;
-      background-color: black;
-      border: 1px solid #000000;
-      border-radius: 45px;
-    }
-    .emptyIconBox {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 140px;
-      height: 140px;
-      background-color: white;
-      border: 1px solid #000000;
-      border-radius: 45px;
-
-      .selectIconName {
-        font-size: 18px;
-        font-weight: 800;
-        color: white;
-      }
-
-      .iconName {
-        font-size: 18px;
-        font-weight: 800;
-      }
-
-      .iconSection {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-    }
-  }
 }
+
+.threeIconBoxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+
+.selectIconBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  background-color: black;
+  border: 1px solid #000000;
+  border-radius: 45px;
+}
+
+.iconSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 69px;
+  height: 69px;
+}
+.selectIconName {
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+
+.emptyIconBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 45px;
+}
+.iconName {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.iconSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 // "menu" 타이틀영역 끝
 
 // COFFEE 메뉴 영역 시작
@@ -84,16 +92,16 @@
   width: 100%;
   height: 350px;
   margin-bottom: -100px;
+}
 
-  .coffeeMenuTitle {
-    font-size: 45px;
-    font-weight: 800;
-  }
+.coffeeMenuTitle {
+  font-size: 45px;
+  font-weight: 800;
+}
 
-  .longOrangeCircle {
-    z-index: -1;
-    position: absolute;
-  }
+.longOrangeCircle {
+  z-index: -1;
+  position: absolute;
 }
 
 // COFFEE 메뉴 이미지 8개
@@ -104,33 +112,34 @@
   justify-content: center;
   width: 100%;
   height: 850px;
+}
+.fourCoffeeMenuBoxes {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  height: 400px;
+}
+.eachCoffeeMenues {
+  display: flex;
+  flex-direction: column;
+  // ▼ justify-content가 아닌 왜 align인지?
+  align-items: center;
+}
+.coffeeMenu {
+  width: 248px;
+  height: 330px;
+  border: 1px solid #cecece;
+  border-radius: 40px;
+}
 
-  .fourCoffeeMenuBoxes {
-    display: flex;
-    justify-content: space-between;
-    width: 1100px;
-    height: 400px;
+.coffeeName {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
 
-    .eachCoffeeMenues {
-      display: flex;
-      flex-direction: column;
-      // ▼ justify-content가 아닌 왜 align인지?
-      align-items: center;
-
-      .coffeeMenu {
-        width: 248px;
-        height: 330px;
-        border: 1px solid #cecece;
-        border-radius: 40px;
-      }
-
-      .coffeeName {
-        margin-top: 25px;
-        margin-bottom: 40px;
-        font-size: 18px;
-        font-weight: 500;
-        letter-spacing: -0.5px;
-      }
-    }
-  }
+.footerSpacing {
+  margin-bottom: 100px;
 }

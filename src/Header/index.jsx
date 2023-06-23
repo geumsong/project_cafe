@@ -21,7 +21,9 @@ const Header = () => {
           <div className="nav">
             <Link to="/menu">MENU</Link>
           </div>
-          <span className="nav">NEWS</span>
+          <span className="nav">
+            <Link to="/news">NEWS</Link>
+          </span>
           <span className="nav">SERVICE</span>
         </div>
       </div>
