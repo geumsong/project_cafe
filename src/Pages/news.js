@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/pages/news.scss";
+import dummy from "../datas/dummy.json";
 
 const news = () => {
   return (
@@ -54,21 +55,27 @@ const news = () => {
             </div>
             {/* 아래 부터는 목록부분 */}
             <div>
-              <div className="noticeboardBody">
-                <div className="bodyTextNuFourSection">
-                  <div>4</div>
-                </div>
-                <div className="bodyTextTitleSection">
-                  <div>ㅇㅇㅇ 일부 메뉴 가격 인상 안내</div>
-                </div>
-                <div>
-                  <div></div>
-                </div>
-                <div>
-                  <div></div>
-                </div>
-              </div>
-              <div></div>
+              {dummy?.map((data, index) => {
+                return (
+                  <div className="noticeboardBody">
+                    <div className="bodyTextNumSection">
+                      <div>{data.id}</div>
+                    </div>
+
+                    <div className="bodyTextTitleSection">
+                      <div>{data.title}</div>
+                    </div>
+                    <div className="bodyTextDateSection">
+                      <div>{data.date}</div>
+                    </div>
+                    <div className="bodyTextCntSection">
+                      <div>{data.cnt}</div>
+                    </div>
+                  </div>
+                );
+              })}
+
+              <div className="pageNum">1</div>
               <div></div>
               <div></div>
             </div>
