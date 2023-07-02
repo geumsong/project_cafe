@@ -22,9 +22,10 @@ const Header = () => {
             <Link to="/menu">MENU</Link>
           </div>
           <span className="nav">
-            <Link to="/news">NEWS</Link>
+            <Link to="/newsNoticePage">NEWS</Link>
           </span>
-          <span className="nav">SERVICE</span>
+          <span className="nav">
+          <Link to="/serviceAffiliationInquiryPage">SERVICE</Link></span>
         </div>
       </div>
     </div>

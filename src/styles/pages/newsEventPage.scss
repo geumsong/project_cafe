@@ -1,0 +1,33 @@
+.wholeEventSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 420px;
+}
+
+.fourEventBoxes {
+  display: flex;
+  justify-content: space-between;
+  width: 1350px;
+  height: 420px;
+}
+
+.eachEventBox {
+  display: flex;
+  flex-direction: column;
+  // justify-content가 아닌이유..?
+  align-items: center;
+}
+
+.eventImage {
+  width: 280px;
+  height: 380px;
+  background-color: lightgray;
+  border-radius: 30px;
+}
+
+.eventTitle {
+  margin-top: 14px;
+  font-size: 17px;
+  font-weight: 600;
+}

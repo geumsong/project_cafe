@@ -7,7 +7,9 @@ import AboutPage_coffee from "./Pages/aboutPage_coffee";
 import AboutPage_roasting from "./Pages/aboutPage_roasting";
 import Menu from "./Pages/menu";
 import Footer from "./Pages/footer";
-import News from "./Pages/news";
+import NewsNoticePage from "./Pages/newsNoticePage";
+import NewsEventPage from "./Pages/newsEventPage";
+import ServiceAffiliationInquiryPage from "./Pages/serviceAffiliationInquiryPage";
 
 function App() {
   return (
@@ -21,7 +23,12 @@ function App() {
           <Route path="/aboutPage_coffee" Component={AboutPage_coffee} />
           <Route path="/aboutPage_roasting" Component={AboutPage_roasting} />
           <Route path="/menu" Component={Menu} />
-          <Route path="/news" Component={News} />
+          <Route path="/newsNoticePage" Component={NewsNoticePage} />
+          <Route path="/newsEventPage" Component={NewsEventPage} />
+          <Route
+            path="/serviceAffiliationInquiryPage"
+            Component={ServiceAffiliationInquiryPage}
+          />
         </Routes>
       </BrowserRouter>
       <Footer />

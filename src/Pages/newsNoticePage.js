@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/pages/news.scss";
+import "../styles/pages/newsNoticePage.scss";
 import dummy from "../datas/dummy.json";
 
-const news = () => {
+const newsNoticePage = () => {
   return (
     <div>
       <div className="searchSection">
@@ -74,16 +74,23 @@ const news = () => {
                   </div>
                 );
               })}
-
               <div className="pageNum">1</div>
-              <div></div>
-              <div></div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="topButtonSection">
+        <button className="topButton">
+          <img
+            className="whiteTriangle"
+            src={require("../assets/img/whiteTriangle.png")}
+            alt="top버튼 화살표"
+          />
+          TOP
+        </button>
       </div>
     </div>
   );
 };
 
-export default news;
+export default newsNoticePage;

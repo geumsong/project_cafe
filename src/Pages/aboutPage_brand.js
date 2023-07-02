@@ -51,6 +51,7 @@ const aboutPage_brand = () => {
             <button className="notCheckButton ">원두로스팅</button>
           </div>
         </div>
+      </div>
         <button className="topButton">
           <img
             className="whiteTriangle"
@@ -59,7 +60,6 @@ const aboutPage_brand = () => {
           />
           TOP
         </button>
-      </div>
     </div>
   );
 };
