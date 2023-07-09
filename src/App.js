@@ -9,7 +9,8 @@ import Menu from "./Pages/menu";
 import Footer from "./Pages/footer";
 import NewsNoticePage from "./Pages/newsNoticePage";
 import NewsEventPage from "./Pages/newsEventPage";
-import ServiceAffiliationInquiryPage from "./Pages/serviceAffiliationInquiryPage";
+import ServiceAffiliationPage from "./Pages/serviceAffiliationPage";
+import ServiceDirectionsPage from "./Pages/serviceDirectionsPage";
 
 function App() {
   return (
@@ -26,8 +27,12 @@ function App() {
           <Route path="/newsNoticePage" Component={NewsNoticePage} />
           <Route path="/newsEventPage" Component={NewsEventPage} />
           <Route
-            path="/serviceAffiliationInquiryPage"
-            Component={ServiceAffiliationInquiryPage}
+            path="/serviceAffiliationPage"
+            Component={ServiceAffiliationPage}
+          />
+          <Route
+            path="/serviceDirectionsPage"
+            Component={ServiceDirectionsPage}
           />
         </Routes>
       </BrowserRouter>

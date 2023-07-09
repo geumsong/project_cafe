@@ -25,7 +25,7 @@ const Header = () => {
             <Link to="/newsNoticePage">NEWS</Link>
           </span>
           <span className="nav">
-          <Link to="/serviceAffiliationInquiryPage">SERVICE</Link></span>
+          <Link to="/serviceAffiliationPage">SERVICE</Link></span>
         </div>
       </div>
     </div>

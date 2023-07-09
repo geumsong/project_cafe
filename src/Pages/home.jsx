@@ -92,14 +92,16 @@ const Home = () => {
               Coffee Bean
               <div className="seeMore">
                 <div style={{ textDecoration: "none" }}>
-                  <button className="moreCoffeeBeanButton">
-                    자세히 보기
-                    <img
-                      className="narrow"
-                      src={require("../assets/img/narrow.png")}
-                      alt="narrow"
-                    />
-                  </button>
+                  <Link to="/serviceDirectionsPage">
+                    <button className="moreCoffeeBeanButton">
+                      자세히 보기
+                      <img
+                        className="narrow"
+                        src={require("../assets/img/narrow.png")}
+                        alt="narrow"
+                      />
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

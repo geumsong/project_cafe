@@ -1,0 +1,93 @@
+.dirMainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 900px;
+}
+
+.dirMainText {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+.map {
+  margin-top: 50px;
+  width: 1200px;
+  height: 600px;
+  background-color: black;
+}
+
+.dir {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+.dirAddressWholeBox {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 70px;
+}
+
+.dirHeadOfficeTextAlign {
+  display: flex;
+  width: 1050px;
+}
+
+.dirHeadOffice {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -3px;
+}
+
+.dirLine {
+  width: 1100px;
+  border: 1px solid #212121;
+}
+
+.addressDirBox {
+  display: flex;
+  width: 1050px;
+  height: 70px;
+}
+
+.addressTitleTextBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 70px;
+  color: #333333;
+}
+
+.addressTitleTextAlign {
+  width: 200px;
+}
+
+.addressTitleText {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.addressSubTextAlign {
+  display: flex;
+  align-items: center;
+  width: 770px;
+}
+
+.addressSubText {
+  font-size: 18px;
+  color: #707070;
+  letter-spacing: -1px;
+}
+
+.dirLightLine {
+  width: 1100px;
+  border: 1px solid #e8e8e8;
+}

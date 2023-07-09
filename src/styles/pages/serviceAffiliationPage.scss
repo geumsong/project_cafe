@@ -1,0 +1,145 @@
+.affTitleSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 570px;
+  background-color: lightgray;
+}
+
+.affLogo {
+  width: 100px;
+  height: 75px;
+  margin-left: 50px;
+}
+
+.affTitle {
+  margin-top: 35px;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: -6px;
+}
+
+.affExplain {
+  margin-top: 35px;
+  white-space: pre-line;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 24px;
+  color: #686868;
+}
+
+.applyAffiliateButton {
+  margin-top: 50px;
+  width: 310px;
+  height: 50px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: black;
+  cursor: pointer;
+}
+
+.applyAffiliateButtonText {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: -1px;
+}
+
+// 가맹절차 섹션 시작
+.affProcessSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1200px;
+}
+
+.affProcessWholeBox {
+  width: 1300px;
+}
+
+.affProcess {
+  display: flex;
+  align-items: center;
+  width: 1300px;
+  height: 85px;
+}
+
+.questionButton {
+  width: 25px;
+  height: auto;
+  margin-left: 40px;
+}
+
+.affProcessMainText {
+  margin-left: 20px;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.affLine {
+  width: 1300px;
+  border: 1px solid #efefef;
+}
+
+// step1부터 시작
+.stepWholeBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1300px;
+  height: 90px;
+}
+
+.stepWholeBoxTextAlign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1150px;
+}
+
+.stepBox {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+
+  .stepNumBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    height: 34px;
+    border: 2px solid #ff6302;
+    border-radius: 20px;
+
+    .stepNumBoxText {
+      font-size: 18px;
+      color: #ff6302;
+    }
+  }
+}
+
+.stepTitleBox {
+  width: 580px;
+}
+
+.stepTitleText {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.stepSubBox {
+  width: 410px;
+}
+
+.stepSubBoxText {
+  white-space: pre-line;
+  line-height: 22px;
+  font-size: 14px;
+  color: #969696;
+}
