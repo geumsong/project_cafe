@@ -14,7 +14,9 @@ const aboutPage_brand = () => {
           <button className="notCheckButton">
             <Link to="/aboutPage_coffee">마다메커피</Link>
           </button>
-          <button className="notCheckButton">원두로스팅</button>
+          <button className="notCheckButton">
+            <Link to="/aboutPage_roasting">원두로스팅</Link>
+          </button>
         </div>
       </div>
 
@@ -48,18 +50,20 @@ const aboutPage_brand = () => {
             <button className="notCheckButton ">
               <Link to="/aboutPage_coffee">마다메커피</Link>
             </button>
-            <button className="notCheckButton ">원두로스팅</button>
+            <button className="notCheckButton ">
+              <Link to="/aboutPage_roasting">원두로스팅</Link>
+            </button>
           </div>
         </div>
       </div>
-        <button className="topButton">
-          <img
-            className="whiteTriangle"
-            src={require("../assets/img/whiteTriangle.png")}
-            alt="top버튼 화살표"
-          />
-          TOP
-        </button>
+      <button className="topButton">
+        <img
+          className="whiteTriangle"
+          src={require("../assets/img/whiteTriangle.png")}
+          alt="top버튼 화살표"
+        />
+        TOP
+      </button>
     </div>
   );
 };

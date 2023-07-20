@@ -14,10 +14,8 @@ const Home = () => {
             src={require("../assets/img/summer.png")}
             alt="제목"
           />
-          <Link to="/aboutPage_brand" className="goToNewMenu">
-            <button className="goToNewMenuButton">
-              {/* Link to 경로 menuPage 생성되면 변경할것 */}신 메뉴 보러가기
-            </button>
+          <Link to="/menu" className="goToNewMenu">
+            <button className="goToNewMenuButton">신 메뉴 보러가기</button>
           </Link>
         </div>
 
@@ -48,22 +46,26 @@ const Home = () => {
           <span className="noticeMainTitle">공지사항</span>
           <span className="noticeTitle">ㅇㅇㅇ일부 메뉴 가격 인상 안내</span>
           <div style={{ marginLeft: "120px" }}>
-            <img
-              className="plus"
-              src={require("../assets/img/plus.png")}
-              alt="공지사항 더보기"
-            />
+            <Link to="/newsNoticePage">
+              <img
+                className="plus"
+                src={require("../assets/img/plus.png")}
+                alt="공지사항 더보기"
+              />
+            </Link>
           </div>
         </div>
         <div className="noticeSection">
           <span className="noticeMainTitle">이벤트</span>
           <span className="noticeTitle">벚꽃시리즈 스템프 이벤트</span>
           <div style={{ marginLeft: "120px" }}>
-            <img
-              className="plus"
-              src={require("../assets/img/plus.png")}
-              alt="이벤트 더보기"
-            ></img>
+            <Link to="newsEventPage">
+              <img
+                className="plus"
+                src={require("../assets/img/plus.png")}
+                alt="이벤트 더보기"
+              />
+            </Link>
           </div>
         </div>
       </div>
@@ -92,7 +94,7 @@ const Home = () => {
               Coffee Bean
               <div className="seeMore">
                 <div style={{ textDecoration: "none" }}>
-                  <Link to="/serviceDirectionsPage">
+                  <Link to="/aboutPage_roasting">
                     <button className="moreCoffeeBeanButton">
                       자세히 보기
                       <img
@@ -151,12 +153,14 @@ const Home = () => {
 
         <div className="fivePicturesTop">
           <div className="fivePictures">
-            <div>
-              <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
-              />
+            <div className="picturealign">
+              <div className="pictures">
+                <img
+                  className="picturesCoffee"
+                  src={require("../assets/img/iceAmericano.png")}
+                  alt="아이스 아메리카노"
+                />
+              </div>
             </div>
             <div>
               <img
@@ -276,9 +280,11 @@ const Home = () => {
         <div className="blackSquare">
           <div className="tryMenu">ㅇㅇㅇ의 다양한 메뉴를 경험해보세요</div>
           <div>
-            <button className="seeMoreVariousMenu">
-              더 많은 메뉴 보러가기
-            </button>
+            <Link to="/menu">
+              <button className="seeMoreVariousMenu">
+                더 많은 메뉴 보러가기
+              </button>
+            </Link>
           </div>
         </div>
       </div>
