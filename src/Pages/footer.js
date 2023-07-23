@@ -21,27 +21,27 @@ const footer = () => {
               <div className="followSns">
                 <div className="followUs">FOLLOW US!</div>
                 <div className="snsLink">
-                  <div>
+                  <a href="https://www.youtube.com/@danngolgage">
                     <img
                       className="snsImage"
                       src={require("../assets/img/youtube.png")}
                       alt="유튜브"
                     />
-                  </div>
-                  <div>
+                  </a>
+                  <a href="https://www.instagram.com/danngolgage/">
                     <img
                       className="snsImage"
                       src={require("../assets/img/instagram.png")}
                       alt="인스타"
                     />
-                  </div>
-                  <div>
+                  </a>
+                  <a href="https://www.facebook.com/danngolgage">
                     <img
                       className="snsImage"
                       src={require("../assets/img/facebook.png")}
                       alt="페이스북"
                     />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

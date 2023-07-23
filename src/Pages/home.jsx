@@ -162,32 +162,32 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img/milkCafeLatte.png")}
+                alt="연유 카페라떼"
               />
             </div>
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img/caramelMacchiato.png")}
+                alt="카라멜 마끼아또"
               />
             </div>
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img/milkColdbrew.png")}
+                alt="연유콜드브루"
               />
             </div>
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img/coldbrewWhiteVienna.png")}
+                alt="콜드브루 화이트비엔나"
               />
             </div>
           </div>
@@ -236,39 +236,39 @@ const Home = () => {
 
         <div className="fivePicturesTop">
           <div className="fivePictures">
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img/bluemoonAde.png")}
+                alt="블루문에이드"
               />
             </div>
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img//shineHibiscus.png")}
+                alt="샤인 히비스커스"
               />
             </div>
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img/strawberryLatte.png")}
+                alt="딸기라떼"
               />
             </div>
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img/watermelonMohitoJuice.png")}
+                alt="멜론 모히또주스"
               />
             </div>
-            <div>
+            <div className="pictures">
               <img
-                className="pictures"
-                src={require("../assets/img/box.png")}
-                alt="pictures"
+                className="picturesCoffee"
+                src={require("../assets/img/yujaPinacolada.png")}
+                alt="유자 피나콜라다"
               />
             </div>
           </div>
